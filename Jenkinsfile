@@ -15,8 +15,7 @@ pipeline {
 				  
                      				                 steps { 
 									    
-								            sh "cp -r index.html /var/www/html"
-									    sh "chmod -R 777 /var/www/html/index.html"
+								            echo "Hello this is master branch"
 								 }
 				  }
 				  
@@ -24,7 +23,7 @@ pipeline {
 				    stage ('start') {
 				  
 				                 steps {
-								             sh "service httpd start"
+								             echo "this is master branch"
 								 }
 				  }
 		 }
