@@ -14,7 +14,7 @@ pipeline {
 		          stage ('stage-1') {
 				  
                      				                 steps {
-								         sh "mkdir test1"
+								         sh "mkdir test3"
 								 }
 				  }
 				  
@@ -22,7 +22,7 @@ pipeline {
 				    stage ('stage-2') {
 				  
 				                 steps {
-										         sh "mkdir folder2"
+										         sh "mkdir folder3"
 								 }
 				  }
 		 }
