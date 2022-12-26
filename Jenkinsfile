@@ -22,7 +22,7 @@ pipeline {
 				    stage ('stage-2') {
 				  
 				                 steps {
-								         sh "mkdirfolder2"
+										         sh "mkdir folder2"
 								 }
 				  }
 		 }
